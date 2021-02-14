@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F114EAAE25CE514B00B47366 /* myglobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F114EAAD25CE514B00B47366 /* myglobal.swift */; };
+		F16197DE25BBD0B100387141 /* ViewControllerfourp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16197DD25BBD0B100387141 /* ViewControllerfourp1.swift */; };
+		F1BB196225B946D400A5B829 /* ViewControllerfive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB196125B946D000A5B829 /* ViewControllerfive.swift */; };
+		F1BB196725B9480900A5B829 /* ViewControllersix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB196625B9480900A5B829 /* ViewControllersix.swift */; };
+		F1BB196C25B9485D00A5B829 /* ViewControllerseven.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB196B25B9485D00A5B829 /* ViewControllerseven.swift */; };
+		F1BB197125B948CE00A5B829 /* ViewControllereight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB197025B948CE00A5B829 /* ViewControllereight.swift */; };
+		F1BB197625B9493900A5B829 /* ViewControllernine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB197525B9493900A5B829 /* ViewControllernine.swift */; };
+		F1BB197B25B949E800A5B829 /* ViewController 10.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BB197A25B949E800A5B829 /* ViewController 10.swift */; };
 		F1C0A06025B67F0C0040366B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A05F25B67F0C0040366B /* AppDelegate.swift */; };
 		F1C0A06225B67F0C0040366B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A06125B67F0C0040366B /* SceneDelegate.swift */; };
 		F1C0A06425B67F0C0040366B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A06325B67F0C0040366B /* ViewController.swift */; };
@@ -15,6 +23,9 @@
 		F1C0A06C25B67F3E0040366B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C0A06A25B67F3E0040366B /* LaunchScreen.storyboard */; };
 		F1C0A07725B67F3F0040366B /* MyHelperappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A07625B67F3F0040366B /* MyHelperappTests.swift */; };
 		F1C0A08225B67F3F0040366B /* MyHelperappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A08125B67F3F0040366B /* MyHelperappUITests.swift */; };
+		F1C0A09325B681000040366B /* ViewControlleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A09225B681000040366B /* ViewControlleOne.swift */; };
+		F1C0A09825B681260040366B /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A09725B681260040366B /* ViewControllerTwo.swift */; };
+		F1C0A09D25B681540040366B /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A09C25B681540040366B /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F114EAAD25CE514B00B47366 /* myglobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myglobal.swift; sourceTree = "<group>"; };
+		F16197DD25BBD0B100387141 /* ViewControllerfourp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerfourp1.swift; sourceTree = "<group>"; };
+		F1BB196125B946D000A5B829 /* ViewControllerfive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerfive.swift; sourceTree = "<group>"; };
+		F1BB196625B9480900A5B829 /* ViewControllersix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersix.swift; sourceTree = "<group>"; };
+		F1BB196B25B9485D00A5B829 /* ViewControllerseven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerseven.swift; sourceTree = "<group>"; };
+		F1BB197025B948CE00A5B829 /* ViewControllereight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllereight.swift; sourceTree = "<group>"; };
+		F1BB197525B9493900A5B829 /* ViewControllernine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllernine.swift; sourceTree = "<group>"; };
+		F1BB197A25B949E800A5B829 /* ViewController 10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController 10.swift"; sourceTree = "<group>"; };
 		F1C0A05C25B67F0C0040366B /* MyHelperapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHelperapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C0A05F25B67F0C0040366B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C0A06125B67F0C0040366B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,9 @@
 		F1C0A07D25B67F3F0040366B /* MyHelperappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHelperappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C0A08125B67F3F0040366B /* MyHelperappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHelperappUITests.swift; sourceTree = "<group>"; };
 		F1C0A08325B67F3F0040366B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C0A09225B681000040366B /* ViewControlleOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleOne.swift; sourceTree = "<group>"; };
+		F1C0A09725B681260040366B /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		F1C0A09C25B681540040366B /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,21 @@
 			children = (
 				F1C0A05F25B67F0C0040366B /* AppDelegate.swift */,
 				F1C0A06125B67F0C0040366B /* SceneDelegate.swift */,
-				F1C0A06325B67F0C0040366B /* ViewController.swift */,
 				F1C0A06525B67F0C0040366B /* Main.storyboard */,
+				F1C0A06325B67F0C0040366B /* ViewController.swift */,
+				F1BB197A25B949E800A5B829 /* ViewController 10.swift */,
+				F1C0A09225B681000040366B /* ViewControlleOne.swift */,
+				F1C0A09725B681260040366B /* ViewControllerTwo.swift */,
+				F1C0A09C25B681540040366B /* ViewControllerThree.swift */,
+				F16197DD25BBD0B100387141 /* ViewControllerfourp1.swift */,
+				F1BB196125B946D000A5B829 /* ViewControllerfive.swift */,
+				F1BB196625B9480900A5B829 /* ViewControllersix.swift */,
+				F1BB197025B948CE00A5B829 /* ViewControllereight.swift */,
+				F1BB197525B9493900A5B829 /* ViewControllernine.swift */,
 				F1C0A06825B67F3E0040366B /* Assets.xcassets */,
 				F1C0A06A25B67F3E0040366B /* LaunchScreen.storyboard */,
+				F1BB196B25B9485D00A5B829 /* ViewControllerseven.swift */,
+				F114EAAD25CE514B00B47366 /* myglobal.swift */,
 				F1C0A06D25B67F3E0040366B /* Info.plist */,
 			);
 			path = MyHelperapp;
@@ -258,7 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C0A09825B681260040366B /* ViewControllerTwo.swift in Sources */,
+				F1C0A09D25B681540040366B /* ViewControllerThree.swift in Sources */,
+				F1C0A09325B681000040366B /* ViewControlleOne.swift in Sources */,
 				F1C0A06425B67F0C0040366B /* ViewController.swift in Sources */,
+				F1BB196225B946D400A5B829 /* ViewControllerfive.swift in Sources */,
+				F1BB196725B9480900A5B829 /* ViewControllersix.swift in Sources */,
+				F1BB197B25B949E800A5B829 /* ViewController 10.swift in Sources */,
+				F16197DE25BBD0B100387141 /* ViewControllerfourp1.swift in Sources */,
+				F114EAAE25CE514B00B47366 /* myglobal.swift in Sources */,
+				F1BB197125B948CE00A5B829 /* ViewControllereight.swift in Sources */,
+				F1BB196C25B9485D00A5B829 /* ViewControllerseven.swift in Sources */,
+				F1BB197625B9493900A5B829 /* ViewControllernine.swift in Sources */,
 				F1C0A06025B67F0C0040366B /* AppDelegate.swift in Sources */,
 				F1C0A06225B67F0C0040366B /* SceneDelegate.swift in Sources */,
 			);
