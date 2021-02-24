@@ -8,6 +8,12 @@
 import UIKit
 
 import AVFoundation
+
+var Mood = ""
+var reasons = " "
+
+
+
 var angryMood = false
 
 var happyMood = false
@@ -27,5 +33,7 @@ var workselected = false
 var schoolselected = false
 
 var loveselected = false
+var moneyselected = false
+
 
 

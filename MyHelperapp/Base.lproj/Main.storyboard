@@ -379,34 +379,26 @@
                                 <color key="textColor" red="0.25391683199999998" green="0.076008488669999999" blue="0.44852474619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYr-Ew-ATf">
-                                <rect key="frame" x="120" y="275" width="174" height="225"/>
+                            <button opaque="NO" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYr-Ew-ATf">
+                                <rect key="frame" x="201" y="164" width="169" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bunnyXd-12"/>
+                                <state key="normal" image="mymoods-2"/>
                                 <connections>
                                     <action selector="angryMoodSelect:" destination="Jv8-pq-FcU" eventType="touchUpInside" id="t0y-Zg-jfs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boT-FT-s4g">
-                                <rect key="frame" x="120" y="451" width="174" height="222"/>
+                                <rect key="frame" x="33" y="417" width="174" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bunnyXd-11"/>
+                                <state key="normal" image="mymoods-3"/>
                                 <connections>
                                     <action selector="sadMoodSelct:" destination="Jv8-pq-FcU" eventType="touchUpInside" id="KLR-jB-1X8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CA9-KK-olc">
-                                <rect key="frame" x="120" y="632" width="174" height="222"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bunnyXd-13"/>
-                                <connections>
-                                    <action selector="unsureMoodSelect:" destination="Jv8-pq-FcU" eventType="touchUpInside" id="DNF-lK-e4h"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZn-lj-pOO">
-                                <rect key="frame" x="120" y="98" width="174" height="219"/>
+                                <rect key="frame" x="39" y="164" width="168" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bunnyXd-8"/>
+                                <state key="normal" image="mymoods-1"/>
                                 <connections>
                                     <action selector="happyMoodSelect:" destination="Jv8-pq-FcU" eventType="touchUpInside" id="T69-0m-jrl"/>
                                 </connections>
@@ -435,6 +427,14 @@
                                 </state>
                                 <connections>
                                     <segue destination="OL1-Dz-x3o" kind="showDetail" id="q2R-eh-hdh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CA9-KK-olc">
+                                <rect key="frame" x="201" y="417" width="174" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="mymoods-4"/>
+                                <connections>
+                                    <action selector="unsureMoodSelect:" destination="Jv8-pq-FcU" eventType="touchUpInside" id="DNF-lK-e4h"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -470,6 +470,9 @@
                                 <state key="normal" title="Daily">
                                     <color key="titleColor" red="0.25391683199999998" green="0.076008488669999999" blue="0.44852474619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="NbH-v6-Dbl" kind="presentation" id="OJk-iX-BYx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-Ed-OVr">
                                 <rect key="frame" x="120" y="244" width="174" height="99"/>
@@ -504,11 +507,79 @@
             </objects>
             <point key="canvasLocation" x="-2881.1594202898555" y="101.78571428571428"/>
         </scene>
+        <!--View Controllerseven-->
+        <scene sceneID="cAw-wQ-hMb">
+            <objects>
+                <viewController id="NbH-v6-Dbl" customClass="ViewControllerseven" customModule="MyHelperapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sgh-3H-llo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqy-pJ-VfY">
+                                <rect key="frame" x="15" y="209" width="340" height="295"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Once you have finished reading hit confirm." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VlE-yX-SaT">
+                                <rect key="frame" x="20" y="519" width="330" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="20"/>
+                                <color key="textColor" red="0.40741989210000001" green="0.1357667192" blue="0.25685431549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Daily Entry Overview " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwo-k0-u1f">
+                                <rect key="frame" x="20" y="64" width="330" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="25"/>
+                                <color key="textColor" red="0.40741989210000001" green="0.1357667192" blue="0.25685431549999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxf-0D-54L">
+                                <rect key="frame" x="139" y="605" width="102" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="28"/>
+                                <state key="normal" title="Confirm">
+                                    <color key="titleColor" red="0.25391683199999998" green="0.076008488669999999" blue="0.44852474619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Today's Date and Day " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3NI-h5-tbx">
+                                <rect key="frame" x="20" y="150" width="279" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="15"/>
+                                <color key="textColor" red="0.40741989210000001" green="0.13152412590000001" blue="0.1334461864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLc-SY-f9Z">
+                                <rect key="frame" x="20" y="187" width="71" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="28"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" red="0.25391683199999998" green="0.076008488669999999" blue="0.44852474619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dateAndOverview:" destination="NbH-v6-Dbl" eventType="touchUpInside" id="f5I-S4-ICa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4C7-9G-QKW"/>
+                        <color key="backgroundColor" red="0.77514280469999997" green="0.75551048440000002" blue="0.88067100249999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="3NI-h5-tbx" id="NkD-Bf-65S"/>
+                        <outlet property="displayDailyLabel" destination="qqy-pJ-VfY" id="o13-sy-fjO"/>
+                        <outlet property="enterAndShowbuttton" destination="pLc-SY-f9Z" id="cQQ-J8-C6A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5A-fp-FKg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2723.1884057971015" y="-664.28571428571422"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cCN-3i-b9H"/>
         <segue reference="gFp-Pt-d3X"/>
-        <segue reference="Dxb-g3-VUk"/>
+        <segue reference="q2R-eh-hdh"/>
         <segue reference="Jke-a7-9om"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -518,11 +589,11 @@
         <image name="bunny-6" width="144" height="216"/>
         <image name="bunny-9" width="144" height="216"/>
         <image name="bunnyXd-1" width="600" height="900"/>
-        <image name="bunnyXd-11" width="600" height="900"/>
-        <image name="bunnyXd-12" width="600" height="900"/>
-        <image name="bunnyXd-13" width="600" height="900"/>
         <image name="bunnyXd-3" width="600" height="900"/>
         <image name="bunnyXd-4" width="600" height="900"/>
-        <image name="bunnyXd-8" width="600" height="900"/>
+        <image name="mymoods-1" width="600" height="300"/>
+        <image name="mymoods-2" width="601" height="300"/>
+        <image name="mymoods-3" width="600" height="301"/>
+        <image name="mymoods-4" width="601" height="301"/>
     </resources>
 </document>

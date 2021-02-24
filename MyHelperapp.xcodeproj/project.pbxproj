@@ -132,11 +132,11 @@
 				F16197DD25BBD0B100387141 /* ViewControllerfourp1.swift */,
 				F1BB196125B946D000A5B829 /* ViewControllerfive.swift */,
 				F1BB196625B9480900A5B829 /* ViewControllersix.swift */,
+				F1BB196B25B9485D00A5B829 /* ViewControllerseven.swift */,
 				F1BB197025B948CE00A5B829 /* ViewControllereight.swift */,
 				F1BB197525B9493900A5B829 /* ViewControllernine.swift */,
 				F1C0A06825B67F3E0040366B /* Assets.xcassets */,
 				F1C0A06A25B67F3E0040366B /* LaunchScreen.storyboard */,
-				F1BB196B25B9485D00A5B829 /* ViewControllerseven.swift */,
 				F114EAAD25CE514B00B47366 /* myglobal.swift */,
 				F1C0A06D25B67F3E0040366B /* Info.plist */,
 			);

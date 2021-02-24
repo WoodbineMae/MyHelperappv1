@@ -8,7 +8,23 @@
 import UIKit
 
 class ViewControllerseven: UIViewController {
+    
+    
+    
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    @IBOutlet weak var displayDailyLabel: UILabel!
+    
+    @IBOutlet weak var enterAndShowbuttton: UIButton!
+    
+    @IBAction func dateAndOverview(_ sender: Any) { let Moods = [angryMood, sadMood, happyMood, unsureMood ]
+        let reasons = [ workselected, schoolselected, loveselected, moneyselected]
+        
+    }
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
